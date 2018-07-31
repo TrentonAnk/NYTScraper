@@ -1,0 +1,58 @@
+body {
+    background-color:rgb(170, 169, 169)
+}
+
+#wrapper {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5%;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    font-family:'Ewert', regular; ;
+}
+h2{
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Ewert', regular; ;
+}
+h3{
+    font-size: 30px;
+    text-align: left;
+    font-family: 'Ewert', regular; ;
+}
+footer{
+    background-color: grey
+}
+
+#articles {
+    display: inline-block;
+    overflow: auto;
+    width: 60%;
+    height: 700px;
+    text-align: left
+}
+
+#notes {
+    float: right;
+    width: 30%;
+}
+
+textarea,
+input {
+    display: block;
+    width: 100%;
+    background-color:whitesmoke;
+}
+
+input {
+    height: 36px;
+    font-size: 24px;
+}
+
+textarea {
+    height: 200px;
+    font-size: 18px;
+}
