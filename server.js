@@ -39,7 +39,7 @@ app.engine("handlebars", exphbs({ defaultLayout: "main" }));
 app.set("view engine", "handlebars");
 
 // A GET route for scraping the echoJS website
-on
+
 app.get("/scrape", function(req, res) {
   // First, we grab the body of the html with request
   axios.get("https://www.nytimes.com/search?query=sports").then(function(response) {
